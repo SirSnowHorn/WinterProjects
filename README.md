@@ -6,6 +6,4 @@ Creating multiple cybersecurity tools over winter break.
 
 - FaceBook Active Group Finder with built in reporting
 
-- A documentation tool that automatically generates a step-by-step guide of what actions you took
-
 - More ideas coming soon!
