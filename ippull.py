@@ -9,10 +9,10 @@ ips = []
 
 with open(fileName, 'r') as file:
         for line in file:
-                if line in ips:
+                if line[:-1] in ips: #We use [:-1] to get rid of newlines..
                         pass
                 else:
-                        ips.append(int(ipv4(line))) #Creates number representation
+                        ips.append(int(ipv4(line[:-1]))) #Creates number representation
                         ips.sort()
                         
 def printIPS(list):
@@ -20,3 +20,4 @@ def printIPS(list):
                 print(str(ipv4(i)))
                 
 #Add additional utilities later.
+printIPS(ips)
